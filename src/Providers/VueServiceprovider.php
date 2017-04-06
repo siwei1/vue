@@ -1,5 +1,5 @@
 <?php
-namespace Pk\Contact\Providers;
+namespace Pk\Vue\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
