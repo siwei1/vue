@@ -1,0 +1,22 @@
+{
+    "name": "pk1997/vue",
+    "description": "vue+laravel laravel5.1 my resume",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "小强",
+            "email": "7903783735@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.5.9",
+		"laravel/framework": "5.1.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Pk\\Vue\\": "pk/vue/src"
+		}
+	}
+}
