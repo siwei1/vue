@@ -3,7 +3,6 @@
     "description": "vue+laravel laravel5.1 my resume",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.0",
     "authors": [
         {
             "name": "小强",
@@ -17,7 +16,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Pk\\Vue\\": "pk/vue/src"
+			"Pk\\Vue\\": "pk1997/vue/src"
 		}
 	}
 }
