@@ -7,4 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Resume extends Model
 {
     protected $table = 'resume';
+    protected $fillable = [
+        '*'
+    ];
 }

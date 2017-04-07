@@ -16,7 +16,8 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Pk\\Vue\\": "src/"
+			"Pk\\Vue\\": "src/",
+            "Pk\\Db\\": "databases/"
 		}
 	}
 }

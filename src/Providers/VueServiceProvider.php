@@ -15,6 +15,10 @@ class VueServiceProvider extends ServiceProvider
         {
             require __DIR__.'/../Http/routes.php';
         });
+
+        $this->publishes([__DIR__.'/../../static/'=>base_path('public/static')],'public');
+        $this->publishes([__DIR__.'/../../assets/'=>base_path('resources/assets')],'public');
+
     }
 
     public function register()

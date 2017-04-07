@@ -8,5 +8,8 @@ class Experience extends Model
 {
     protected $table = 'experience';
     public $timestamps = false;
+    protected $fillable = [
+        '*'
+    ];
 
 }

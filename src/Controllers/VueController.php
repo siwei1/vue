@@ -1,6 +1,8 @@
 <?php
 namespace Pk\Vue\Controllers;
 use App\Http\Controllers\Controller;
+use Pk\Vue\Models\Experience;
+use Pk\Vue\Models\Resume;
 
 class VueController extends Controller
 {
