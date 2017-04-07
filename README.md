@@ -13,4 +13,12 @@ $this->call(\Pk\Db\Seeds\ExperienceSeeder::class);
  $this->call(\Pk\Db\Seeds\ResumeSeeder::class);
  
  php artisan db:seed
+ 
+ 4.php artisan vendor:publish
+ 
+ 5.cd resources/assets
+ npm install 安装依赖
+ webpack打包
+ 
+ 6.输入 本地域名/vue 即可看到效果
 
