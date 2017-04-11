@@ -3,7 +3,7 @@
 
 composer require pk1997/vue dev-master 引入该包
 
-##使用操作
+## 使用操作
 
 1. `config/app.php` 注入服务 加入下面这句话
 ```php
